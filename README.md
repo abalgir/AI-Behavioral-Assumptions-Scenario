@@ -20,7 +20,7 @@ OpenAI API key (stored in .env file as OPENAI_API_KEY).
 
 Setup
 
-Clone the repository:git clone https://github.com/abalgir/behavioral_scenario.git
+Clone the repository:git clone https://github.com/abalgir/AI-Behavioral-Assumptions-Scenario.git
 cd behavioral_scenario
 
 
