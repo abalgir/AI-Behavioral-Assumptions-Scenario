@@ -1,3 +1,5 @@
+KPIMinds LLC
+
 Behavioral Liquidity Scenario Engine
 Overview
 This project provides an AI-driven behavioral scenario analysis tool for bank treasury operations, designed to enhance liquidity risk management by integrating macroeconomic indicators (e.g., GDP, inflation, Federal Reserve rates) into dynamic stress scenarios. Unlike traditional static systems like Murex or Nasdaq Calypso, this model maps real-time economic events to behavioral parameters (e.g., deposit runoffs, wholesale non-rolls), generating actionable cashflow projections and key performance indicators (KPIs) such as Liquidity Coverage Ratio (LCR) and survival days. The tool outperforms conventional approaches by identifying risks earlier, as demonstrated by detecting a $6.5 billion liquidity gap in severe crisis scenarios.
