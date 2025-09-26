@@ -1,0 +1,65 @@
+{
+  "liquidity_profile": [
+
+    { "id": "dep_retail_001", "type": "retail_deposits", "currency": "USD", "notional": 50000000000, "maturity": "demand", "interest_rate": 0.5, "hql_level": null, "stable_funding_factor": 0.9 },
+    { "id": "dep_retail_002", "type": "retail_deposits", "currency": "USD", "notional": 30000000000, "maturity": "demand", "interest_rate": 0.5, "hql_level": null, "stable_funding_factor": 0.9 },
+    { "id": "dep_sme_001", "type": "sme_deposits", "currency": "USD", "notional": 20000000000, "maturity": "demand", "interest_rate": 1.0, "hql_level": null, "stable_funding_factor": 0.8 },
+    { "id": "dep_corp_001", "type": "corporate_deposits", "currency": "USD", "notional": 15000000000, "maturity": "demand", "interest_rate": 0.2, "hql_level": null, "stable_funding_factor": 0.5 },
+
+
+    { "id": "cd_001", "type": "certificate_of_deposit", "currency": "USD", "notional": 10000000000, "maturity": "2026-03-31", "interest_rate": 2.0, "hql_level": null },
+    { "id": "cd_002", "type": "certificate_of_deposit", "currency": "USD", "notional": 8000000000, "maturity": "2026-09-30", "interest_rate": 2.1, "hql_level": null },
+    { "id": "cd_003", "type": "certificate_of_deposit", "currency": "USD", "notional": 7000000000, "maturity": "2027-03-31", "interest_rate": 2.2, "hql_level": null },
+
+
+    { "id": "cp_001", "type": "commercial_paper", "currency": "USD", "notional": 5000000000, "maturity": "2025-11-15", "interest_rate": 2.5 },
+    { "id": "cp_002", "type": "commercial_paper", "currency": "USD", "notional": 5000000000, "maturity": "2026-01-15", "interest_rate": 2.6 },
+    { "id": "repo_001", "type": "repo", "currency": "USD", "notional": 7000000000, "maturity": "2025-10-30", "interest_rate": 2.3, "hql_level": "Level 1", "collateral": "UST" },
+    { "id": "repo_002", "type": "repo", "currency": "USD", "notional": 6000000000, "maturity": "2025-12-15", "interest_rate": 2.4, "hql_level": "Level 1", "collateral": "UST" },
+    { "id": "ib_001", "type": "interbank_borrowing", "currency": "USD", "notional": 4000000000, "maturity": "2025-12-31", "interest_rate": 2.7 },
+    { "id": "fed_001", "type": "fed_funds", "currency": "USD", "notional": 3000000000, "maturity": "2025-10-01", "interest_rate": 3.0 },
+
+
+    { "id": "ust_001", "type": "bond", "currency": "USD", "notional": 15000000000, "maturity": "2026-06-30", "interest_rate": 2.5, "hql_level": "Level 1" },
+    { "id": "ust_002", "type": "bond", "currency": "USD", "notional": 10000000000, "maturity": "2027-06-30", "interest_rate": 2.6, "hql_level": "Level 1" },
+    { "id": "mbs_001", "type": "mortgage_backed_security", "currency": "USD", "notional": 8000000000, "maturity": "2028-01-01", "interest_rate": 3.0, "hql_level": "Level 2A" },
+    { "id": "corp_001", "type": "bond", "currency": "USD", "notional": 7000000000, "maturity": "2030-01-01", "interest_rate": 4.0, "hql_level": "Level 2B" },
+
+
+    { "id": "irs_001", "type": "interest_rate_swap", "currency": "USD", "notional": 10000000000, "maturity": "2028-06-30", "pay_leg": "fixed", "receive_leg": "floating", "fixed_rate": 2.8, "collateralized": true },
+    { "id": "irs_002", "type": "interest_rate_swap", "currency": "USD", "notional": 8000000000, "maturity": "2029-06-30", "pay_leg": "floating", "receive_leg": "fixed", "fixed_rate": 2.9, "collateralized": true },
+    { "id": "fut_001", "type": "futures", "currency": "USD", "notional": 5000000000, "maturity": "2025-12-31" },
+    { "id": "fxfwd_001", "type": "fx_forward", "currency": "EUR", "notional": 3000000000, "maturity": "2025-12-20", "conversion_rate": 1.18 },
+    { "id": "ccyswap_001", "type": "cross_currency_swap", "currency": "GBP", "notional": 4000000000, "maturity": "2027-12-31", "pay_leg": "USD", "receive_leg": "GBP", "conversion_rate": 1.35, "collateralized": true },
+
+
+    { "id": "fed_disc_001", "type": "fed_discount_window", "currency": "USD", "notional": 5000000000, "maturity": "2025-09-30", "interest_rate": 3.5 }
+  ],
+
+  "cashflows": [
+
+    { "instrument_id": "cd_001", "type": "certificate_of_deposit", "currency": "USD", "date": "2026-03-31", "amount": -10000000000 },
+    { "instrument_id": "cd_002", "type": "certificate_of_deposit", "currency": "USD", "date": "2026-09-30", "amount": -8000000000 },
+    { "instrument_id": "cd_003", "type": "certificate_of_deposit", "currency": "USD", "date": "2027-03-31", "amount": -7000000000 },
+
+
+    { "instrument_id": "cp_001", "type": "commercial_paper", "currency": "USD", "date": "2025-11-15", "amount": -5000000000 },
+    { "instrument_id": "cp_002", "type": "commercial_paper", "currency": "USD", "date": "2026-01-15", "amount": -5000000000 },
+    { "instrument_id": "repo_001", "type": "repo", "currency": "USD", "date": "2025-10-30", "amount": -7000000000 },
+    { "instrument_id": "repo_002", "type": "repo", "currency": "USD", "date": "2025-12-15", "amount": -6000000000 },
+    { "instrument_id": "ib_001", "type": "interbank_borrowing", "currency": "USD", "date": "2025-12-31", "amount": -4000000000 },
+    { "instrument_id": "fed_001", "type": "fed_funds", "currency": "USD", "date": "2025-10-01", "amount": -3000000000 },
+
+
+    { "instrument_id": "ust_001", "type": "bond", "currency": "USD", "date": "2026-06-30", "amount": 15000000000 },
+    { "instrument_id": "ust_002", "type": "bond", "currency": "USD", "date": "2027-06-30", "amount": 10000000000 },
+    { "instrument_id": "mbs_001", "type": "mortgage_backed_security", "currency": "USD", "date": "2028-01-01", "amount": 8000000000 },
+    { "instrument_id": "corp_001", "type": "bond", "currency": "USD", "date": "2030-01-01", "amount": 7000000000 }
+  ],
+
+  "intraday_liquidity": {
+    "reserve": 2000000000,
+    "currency": "USD",
+    "description": "Intraday buffer for Fedwire payments"
+  }
+}
