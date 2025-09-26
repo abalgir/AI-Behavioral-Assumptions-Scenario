@@ -106,3 +106,5 @@ Contributing
 Contributions are welcome! Please submit pull requests or open issues for bugs, feature requests, or improvements. Ensure code follows PEP 8 style and includes comments for clarity.
 License
 MIT License. See LICENSE for details.
+
+GitHub: abalgir Email: admin@kpiminds.com
